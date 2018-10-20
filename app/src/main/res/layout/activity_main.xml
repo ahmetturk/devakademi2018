@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:text="@string/filter_user"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_birthdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:onClick="onClickBirthdate"
+        android:text="@string/birthdate" />
+
+    <Button
+        android:id="@+id/button_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:onClick="onClickCity"
+        android:text="@string/city" />
+
+    <Button
+        android:id="@+id/button_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:onClick="onClickEducation"
+        android:text="@string/education" />
+
+    <Button
+        android:id="@+id/button_martial_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:onClick="onClickMartialStatus"
+        android:text="@string/martial_status" />
+
+    <Button
+        android:id="@+id/button_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:onClick="onClickGender"
+        android:text="@string/gender" />
+
+</LinearLayout>

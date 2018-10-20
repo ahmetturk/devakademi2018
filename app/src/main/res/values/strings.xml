@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Sahibinden</string>
+    <string name="filter_user">Kullanıcı Filtrele</string>
+    <string name="filter_button">Filtrele</string>
+
+    <string name="birthdate">Doğum Tarihi</string>
+    <string name="city">Şehir</string>
+    <string name="education">Eğitim Durumu</string>
+    <string name="martial_status">Medeni Durum</string>
+    <string name="gender">Cinsiyet</string>
+    <string name="id_title">ID</string>
+    <string name="city_name_title">ŞEHİR</string>
+    <string name="education_title">EĞİTİM</string>
+    <string name="job_title">MESLEK</string>
+    <string name="martial_status_title">MEDENİ DURUM</string>
+    <string name="age_title">YAŞ</string>
+    <string name="gender_title">CİNSİYET</string>
+    <string name="select_user">Kullanıcı Seç</string>
+
+    <string-array name="birthdateRadioGroup">
+        <item>Sadece seçilen sene</item>
+        <item>Geçmiş seneleri dahil et</item>
+        <item>Gelecek seneleri dahil et</item>
+    </string-array>
+
+    <string-array name="educationRadioGroup">
+        <item>İlkokul</item>
+        <item>Ortaokul</item>
+        <item>Lise</item>
+        <item>Üniversite</item>
+    </string-array>
+
+    <string-array name="martialRadioGroup">
+        <item>Bekar</item>
+        <item>Evli</item>
+    </string-array>
+
+    <string-array name="genderRadioGroup">
+        <item>Erkek</item>
+        <item>Kadın</item>
+    </string-array>
+
+</resources>
